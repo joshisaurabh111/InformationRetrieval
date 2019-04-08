@@ -1,0 +1,27 @@
+
+				Assignment part 3
+
+
+Stay in the folder outside the "sjoshi11_java_part3" i.e. the submission folder while running the below commands
+Compile the code using :
+
+javac -cp .:commons-csv-1.5.jar:jsoup-1.11.2.jar sjoshi11_java_part3/*.java
+
+Run the code using below format of input :
+
+javac -cp .:commons-csv-1.5.jar:jsoup-1.11.2.jar sjoshi11_java_part3/assignmentP3 "/home/sourabh/Desktop/IR/project/part2/Reviews" dict.csv post.csv table.csv output.txt
+
+Please prove "" outside the first argument since it takes a path.
+Let the other arguments be .csv files since the code is supposed to create comma seperated values.
+
+
+External library used :
+
+Jsoup library : 
+jsoup-1.11.2.jar file is included in the submission.
+
+Apache-Commons library :
+commons-csv-1.5  file used for writing and reading CSV files.
+
+
+Without compiling this file the code will not run.
